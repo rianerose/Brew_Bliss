@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brew Bliss</title>
+    <link rel="stylesheet" href="mystyles.css" type="text/css">
+    <link rel="icon" type="image/x-icon" href="images/logo1.png">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html"><img src="images/logo1.png" id="logo"></a></li>
+                <li class="lItem"><a href="index.html">Home</a></li>
+                <li class="lItem"><a href="product.html">Product</a></li>
+                <li class="lItem"><a href="aboutus.html">About Us</a></li>
+                <li><div class="menu-icon" onclick="showMenu();">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                   </div></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="hamburger-menu">
+            <div><a href="index.html">Home</a></div>
+            <div><a href="product.html">Product</a></div>
+            <div><a href="aboutus.html">About Us</a></div>
+        </div>
+        <div id="hero">
+            <img src="images/approaches.jpg" id="heroimage">
+        </div>
+
+        <div id="reco">
+            <h2>Our Best Sellers!</h2>
+            <div class="recoproduct">
+                <div class="rproduct">
+                    <img src="images/item1.jpg" alt="product 1" class="tea">
+                    <h3>Traditional Milk Tea</h3>
+                    <p>- A rich, velvety blend of black tea and fresh milk.</p>
+                    <button>Order Now</button>
+                </div>
+
+                <div class="rproduct">
+                    <img src="images/item2.jpg" alt="product 2" class="tea">
+                    <h3>Earl Grey Delight</h3>
+                    <p>- A sophisticated fusion of Earl Grey tea and silky milk.</p>
+                    <button>Order Now</button>
+                </div>
+            </div>
+
+            <div class="recoproduct">
+                <div class="rproduct">
+                    <img src="images/item3.jpg" alt="product 3" class="tea">
+                    <h3>Blissful Boba Burst</h3>
+                    <p>- A playful combination of classic milk tea and chewy boba pearls.</p>
+                    <button>Order Now</button>
+                </div>
+
+                <div class="rproduct">
+                    <img src="images/item4.jpg" alt="product 4" class="tea">
+                    <h3>Honey Lavender Dream</h3>
+                    <p>- A fragrant blend of lavender-infused tea, milk, and a hint of honey.</p>
+                    <button>Order Now</button>
+                </div>
+            </div>
+            <button id="browse">Browse more flavors</button>
+        </div>
+
+        <div id="discover">
+            <h2>Discover Brew Bliss</h2>
+            <p>At Brew Bliss, every cup is an invitation to explore new flavors, create lasting memories, and embrace moments of serenity. Whether you’re new to tea or a seasoned enthusiast, there’s always something to discover with us. Dive into our vibrant world of handcrafted teas, mindful moments, and community connection.</p>
+            <div id="searchee">
+                <input type="search" placeholder="Search in our products" id="search-box">
+                <button id="search-btn">Search</button>
+            </div>
+        </div>
+    </main>
+    <script src="myscript.js" defer></script>
+</body>
+</html>
